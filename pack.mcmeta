@@ -1,0 +1,44 @@
+{
+  "pack": {
+    "min_format": [80, 0],
+    "max_format": [999, 0],
+
+    "pack_format": 80,
+    "supported_formats": [80, 999],
+    "description": [
+      {
+        "text": "\"datapack_name\" (datapack_id)"
+      },
+      "\n",
+      {
+        "translate": "datapack_id.description",
+        "fallback": "datapack_description",
+        "color": "#aaaaaa"
+      },
+      "\n\n",
+      {
+        "translate": "jodek.version",
+        "fallback": "Version"
+      },
+      {
+        "text": " "
+      },
+      {
+        "text": "1.0.0",
+        "color": "#55ff55"
+      },
+      "\n",
+      {
+        "translate": "jodek.by",
+        "fallback": "by"
+      },
+      {
+        "text": " "
+      },
+      {
+        "text": "Jodek",
+        "color": "#ffff55"
+      }
+    ]
+  }
+}
